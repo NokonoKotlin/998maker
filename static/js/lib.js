@@ -1,4 +1,4 @@
-const base = "9+9-8-2-4-4+3-5+3";
+const base = "9-98-2-4+43+53";
 const base_double = base + "+" + base;
 
 // S to (S)
