@@ -10,7 +10,7 @@ function convert998(N){
     if((typeof N) != 'number')return "invalid";
     var toggle = false;
 
-    if( N == 0 )return base + "-" + base;
+    if( N == 0 )return base + "-" + format(base);
     if(N < 0){
         toggle = true;
         N = N*(-1);
