@@ -1,0 +1,54 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	color: rgb(0, 0, 0);	
+	
+	font-size: 15px;	
+	line-height: 2;		
+	background: rgb(173, 178, 181);
+	-webkit-text-size-adjust: none;
+}
+
+
+.Inner{
+	position: relative;	
+	width: 96%;
+	margin:0 auto;
+    padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.Introduction{
+	position: relative;
+	background: rgb(253, 253, 253);	
+	color: black;
+	padding: 10px;		
+	box-sizing: border-box;
+    border: 4px solid;
+	border-color: black;
+	text-align: center;
+}
+
+.Explanation{
+	position: relative;
+	background: rgb(253, 253, 253);	
+	color: black;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+.Button{
+	color: black;
+	background-color: rgb(247, 235, 235);
+	font-size: 15px;
+	width: fit-content;
+    box-sizing: border-box;
+    border: 1px black solid;
+}
+
+.Button:hover{
+    color: white;
+    background-color: rgb(104, 102, 102);
+}
