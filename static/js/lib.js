@@ -22,7 +22,7 @@ function convert998(N){
             if(res.length == 0)res = power2;
             else res = res + "+" + power2;
         }
-        power2 = format(power2 + "*" + format(base_double));
+        power2 = power2 + "*" + format(base_double);
     }
     if(toggle) res = "-" + format(res);
     return res;
